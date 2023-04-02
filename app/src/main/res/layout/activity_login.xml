@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".ui.view.LoginActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/header"
+                layout="@layout/header" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="3">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="220dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/platinumclub_app_icon" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/rounded_top_white_bg"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="@string/welcome_back"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textColor="@color/blackTxt" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/sign_in_to_continue"
+                        android:textColor="@color/blackTxt"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                    <EditText
+                        android:id="@+id/phone_number_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="15dp"
+                        android:hint="@string/enter_phone_number"
+                        android:inputType="phone"
+                        android:textColorHint="@color/greyTxt"
+                        android:maxLength="10"
+                        android:padding="10dp"
+                        android:background="@drawable/rounded_button_border_theme"
+                        android:textSize="@dimen/text_16"
+                        android:textColor="@color/blackTxt" />
+
+                    <EditText
+                        android:id="@+id/password_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:textColorHint="@color/greyTxt"
+                        android:layout_marginRight="15dp"
+                        android:hint="@string/password"
+                        android:inputType="textPassword"
+                        android:maxLength="30"
+                        android:padding="10dp"
+                        android:background="@drawable/rounded_button_border_theme"
+                        android:drawableTint="@color/teal_700"
+                        android:textSize="@dimen/text_16"
+                        android:textColor="@color/blackTxt" />
+
+
+                    <android.widget.Button
+                        android:id="@+id/sign_in_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="30dp"
+                        android:background="@drawable/rounded_button_theme_bg"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/sign_in"
+                        android:textAllCaps="false"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/white" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

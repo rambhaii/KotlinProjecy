@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Estimated coolant consumption"
+                android:textColor="@color/blackTxt" />
+
+            <EditText
+                android:id="@+id/estimate_edt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Enter consumption in Lit."
+                android:inputType="numberDecimal"
+                android:maxLength="10"
+                android:padding="10dp"
+                android:background="@drawable/rounded_button_border_theme"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/blackTxt" />
+
+            <android.widget.Button
+                android:id="@+id/estimate_ok_btn"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_button_theme_bg"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/ok"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

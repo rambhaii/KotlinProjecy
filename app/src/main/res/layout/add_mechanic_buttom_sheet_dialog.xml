@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/title_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Mechanic"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@color/blackTxt" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_txt"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Mechanic type"
+                android:textColor="@color/blackTxt" />
+
+            <Spinner
+                android:id="@+id/mech_type_spinner"
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="First name"
+                android:textColor="@color/blackTxt" />
+
+            <EditText
+                android:id="@+id/mech_first_name_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter mechanic first name"
+                android:inputType="textCapWords"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:background="@drawable/rounded_button_border_theme"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/blackTxt" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Last name"
+                android:textColor="@color/blackTxt" />
+
+            <EditText
+                android:id="@+id/mech_last_name_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter mechanic last name"
+                android:inputType="textCapWords"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:background="@drawable/rounded_button_border_theme"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/blackTxt" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Phone number"
+                android:textColor="@color/blackTxt" />
+
+            <EditText
+                android:id="@+id/mech_phone_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter mechanic phone number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:background="@drawable/rounded_button_border_theme"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/blackTxt" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Pin code"
+                android:textColor="@color/blackTxt" />
+
+            <EditText
+                android:id="@+id/mech_pin_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter mechanic pin code"
+                android:inputType="number"
+                android:maxLength="6"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:background="@drawable/rounded_button_border_theme"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/blackTxt" />
+
+
+            <android.widget.Button
+                android:id="@+id/mech_submit_btn"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_button_theme_bg"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/cancel_img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_baseline_cancel_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/redTxt" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

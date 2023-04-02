@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">GcSalesApp</string>
+
+    <string name="sell_product">Sell Products</string>
+    <string name="your_order">Your Order</string>
+    <string name="scanned_product">Scanned Products</string>
+    <string name="hello">Hello!</string>
+    <string name="total">Total</string>
+    <string name="more">More</string>
+    <string name="done">Done</string>
+    <string name="continu">Continue</string>
+    <string name="payment_mode">Payment Mode</string>
+    <string name="payment_link">Payment Link</string>
+    <string name="qr_code">QR Code</string>
+    <string name="cash">Cash/Card</string>
+    <string name="credit">Credit</string>
+    <string name="cust_mob_num">Mobile number</string>
+    <string name="cust_detail">Customer Detail</string>
+    <string name="coupon_code">Coupon Code(If available)</string>
+    <string name="extra_amount">Other Amount(If any)</string>
+    <string name="ok">OK</string>
+    <string name="notification_message">Scanner is running...</string>
+    <string name="notification_title">GC Platinum Club</string>
+    <string name="ticker_text">Scanning</string>
+    <string name="duplicate_code">Duplicate Code</string>
+    <string name="net_payable">Net Payable</string>
+    <string name="payment_received">Payment Received</string>
+    <string name="payment_token">Tell token number to dealer for payment</string>
+    <string name="waiting_payment">Waiting For Payment</string>
+    <string name="minutes">Minutes</string>
+    <string name="price">Price(## Items)</string>
+    <string name="gst">GST(##)</string>
+    <string name="coupon">Coupon Applied(##)</string>
+    <string name="discount">Discount</string>
+    <string name="amount_payable">Amount Payable</string>
+    <string name="your_margin">Your Margin</string>
+    <string name="price_details">Price Details</string>
+    <string name="margin_stld">Your Margin Settled</string>
+    <string name="try_again">Try Again</string>
+    <string name="skip">Skip</string>
+    <string name="proceed">Proceed</string>
+    <string name="coupon_detail">Coupon Code</string>
+    <string name="vehicle_num">Vehicle registration number</string>
+    <string name="phone_num">Phone Number</string>
+
+
+    <!--Common-->
+    <string name="okay"> OK </string>
+    <string name="cancel"> Cancel</string>
+    <string name="logout"> Logout</string>
+    <string name="submit"> Submit</string>
+    <string name="no_records_found">No Record(s) Found</string>
+    <string name="some_error"> Some error occurred, please try again later</string>
+    <string name="back_again_to_exit">Press BACK again to exit</string>
+    <string name="rupee">\u20B9</string>
+    <string name="na">N/A</string>
+    <string name="retry">Retry</string>
+    <string name="connection_error">Connection Error</string>
+    <string name="session_time_out">Your session appears to have expired. Please re-login.</string>
+    <string name="session_expired">Session Expired</string>
+    <string name="not_authorised">Sorry, You are not authorised for this action</string>
+    <string name="no_internet_msg">Please check your network connectivity and try again.</string>
+    <string name="golden_cruiser">Golden Cruiser</string>
+    <string name="please_wait"> Please Wait.. </string>
+    <string name="self_collect"> Collect Payment </string>
+    <string name="owner_collect"> Send collection to owner </string>
+
+
+    <!--    Login-->
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sign_in_to_continue">Sign in to continue with your number</string>
+    <string name="enter_phone_number">Enter your 10 digits phone number</string>
+    <string name="password">Your today\'s password</string>
+    <string name="forgot">Forgot</string>
+    <string name="by_logging_in">By logging in you agree to our</string>
+    <string name="tos">Term of Service</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="sign_in">Sign in</string>
+
+
+    <!--Return-->
+    <string name="open_camera">Open Camera</string>
+    <string name="qr_on_can">QR code is printed on the can</string>
+    <string name="enter_manually">Enter Manually</string>
+    <string name="enter_manually_if_camera_not_working">Enter code manually if camera is not working</string>
+    <string name="enter_code">Enter code</string>
+    <string name="number_of_code_scanned">Number of codes scanned</string>
+    <string name="add_more">Add More</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_distruted_intend_planning">DistrutedIntendPlanningActivity</string>
+
+</resources>

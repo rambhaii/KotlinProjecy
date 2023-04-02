@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:background="@drawable/rounded_button_border_theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/cardView"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    app:cardCornerRadius="40dp">
+
+                    <ImageView
+                        android:id="@+id/no_engage_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_baseline_star_24" />
+
+                    <ImageView
+                        android:id="@+id/order_engage_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_baseline_star_24" />
+
+                    <TextView
+                        android:id="@+id/visit_count"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:maxLines="1"
+                        android:gravity="center"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="0"
+                        android:textColor="@color/blackTxt"
+                        android:textSize="@dimen/text_14"
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/dealer_avg"
+                    android:layout_toLeftOf="@id/cardView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:maxLines="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="(75 Lit.)"
+                    android:textColor="@color/blackTxt"
+                    android:textSize="@dimen/text_14"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/dealer_avg"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/dealer_name"
+                        android:maxLines="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Demo Tredars"
+                        android:textColor="@color/blackTxt"
+                        android:textSize="@dimen/text_16" />
+
+                    <TextView
+                        android:id="@+id/dealer_type"
+                        android:maxLines="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="Retailer"
+                        android:textColor="@color/redTxt"
+                        android:textSize="@dimen/text_12" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/dealer_ordered"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:maxLines="1"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/rounded_button_theme_bg"
+                    android:drawableEnd="@drawable/ic_baseline_help_outline_24"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/white"
+                    android:fontFamily="@font/poppins_regular"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="0 Lit. Ordered"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_12" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@id/dealer_ordered"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/dealer_contact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="8896203990"
+                        android:maxLines="1"
+                        android:textColor="@color/blackTxt"
+                        android:textSize="@dimen/text_14" />
+
+                    <TextView
+                        android:id="@+id/dealer_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Delhi 110061"
+                        android:maxLines="1"
+                        android:textColor="@color/blackTxt"
+                        android:textSize="@dimen/text_14" />
+
+
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

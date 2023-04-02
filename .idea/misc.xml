@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/17Nov Deep Backup/GcSalesApp/app/src/main/res/layout/activity_home.xml" value="0.1921875" />
+        <entry key="..\:/17Nov Deep Backup/gcwinnerclubsales/app/src/main/res/layout/activity_add_mechanic.xml" value="0.1921875" />
+        <entry key="..\:/17Nov Deep Backup/gcwinnerclubsales/app/src/main/res/layout/activity_dealer_interaction.xml" value="0.1921875" />
+        <entry key="..\:/17Nov Deep Backup/gcwinnerclubsales/app/src/main/res/layout/activity_dealer_orders.xml" value="0.1921875" />
+        <entry key="..\:/17Nov Deep Backup/gcwinnerclubsales/app/src/main/res/layout/activity_distruted_intend_planning.xml" value="0.1" />
+        <entry key="..\:/17Nov Deep Backup/gcwinnerclubsales/app/src/main/res/layout/activity_distruted_planning.xml" value="0.14739583333333334" />
+        <entry key="..\:/17Nov Deep Backup/gcwinnerclubsales/app/src/main/res/layout/activity_home.xml" value="0.1921875" />
+        <entry key="..\:/17Nov Deep Backup/gcwinnerclubsales/app/src/main/res/layout/activity_login.xml" value="0.14814814814814814" />
+        <entry key="..\:/17Nov Deep Backup/gcwinnerclubsales/app/src/main/res/layout/activity_mechanic_list.xml" value="0.1921875" />
+        <entry key="..\:/17Nov Deep Backup/gcwinnerclubsales/app/src/main/res/layout/activity_monitor_dealer.xml" value="0.14814814814814814" />
+        <entry key="..\:/17Nov Deep Backup/gcwinnerclubsales/app/src/main/res/layout/dialog_progress.xml" value="0.1921875" />
+        <entry key="..\:/17Nov Deep Backup/gcwinnerclubsales/app/src/main/res/layout/header.xml" value="0.1921875" />
+        <entry key="..\:/17Nov Deep Backup/gcwinnerclubsales/app/src/main/res/layout/view_sales_info.xml" value="0.1765625" />
+        <entry key="..\:/RWork/Android/demo/gcwinnerclubsales/app/src/main/res/layout/activity_add_mechanic.xml" value="0.20416666666666666" />
+        <entry key="..\:/RWork/Android/demo/gcwinnerclubsales/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/RWork/Android/demo/gcwinnerclubsales/app/src/main/res/layout/activity_mechanic_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/RWork/Android/demo/gcwinnerclubsales/app/src/main/res/layout/activity_monitor_dealer.xml" value="0.20416666666666666" />
+        <entry key="..\:/RWork/Android/demo/gcwinnerclubsales/app/src/main/res/layout/view_dealer_header.xml" value="0.20416666666666666" />
+        <entry key="..\:/RWork/Android/demo/gcwinnerclubsales/app/src/main/res/layout/view_dealer_list_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/RWork/Android/demo/gcwinnerclubsales/app/src/main/res/layout/view_mechanic_list_item.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
